@@ -1,15 +1,15 @@
-class Guitar:
-    def play(self):
-        return "Strumming the guitar "
+class Dog:
+    def move(self):
+        return "Running 🐕"
 
-class Piano:
-    def play(self):
-        return "Playing the piano "
+class Bird:
+    def move(self):
+        return "Flying 🕊️"
 
-class Drums:
-    def play(self):
-        return "Beating the drums "
+class Fish:
+    def move(self):
+        return "Swimming 🐟"
 
-instruments = [Guitar(), Piano(), Drums()]
-for instrument in instruments:
-    print(instrument.play())
+animals = [Dog(), Bird(), Fish()]
+for animal in animals:
+    print(animal.move())
